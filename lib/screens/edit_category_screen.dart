@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/utils/app_dummy_data.dart';
-import 'package:notes_app/utils/app_helpers.dart';
 import 'package:notes_app/widgets/new_edit_screen.dart';
 
 class EditCategoryScreen extends StatefulWidget {

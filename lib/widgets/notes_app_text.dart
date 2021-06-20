@@ -1,8 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:notes_app/utils/app_colors.dart';
-import 'package:notes_app/utils/app_dummy_data.dart';
-import 'package:notes_app/utils/size_config.dart';
 
 class NotesAppText extends StatelessWidget {
   final String text;

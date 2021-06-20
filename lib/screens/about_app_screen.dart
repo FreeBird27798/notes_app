@@ -4,7 +4,6 @@ import 'package:notes_app/utils/app_colors.dart';
 import 'package:notes_app/utils/app_dummy_data.dart';
 import 'package:notes_app/utils/size_config.dart';
 import 'package:notes_app/widgets/launch_about_card.dart';
-import 'package:notes_app/widgets/notes_app_elevated_button.dart';
 import 'package:notes_app/widgets/notes_app_text.dart';
 import 'package:notes_app/widgets/sigunature_text.dart';
 
@@ -55,14 +54,14 @@ class _AboutAppScreenState extends State<AboutAppScreen> {
                   border: Border.all(
                       color: AppColors.APP_BLUE_COLOR,
                       width: SizeConfig.scaleWidth(5)),
-                      // width: 5),
+                  // width: 5),
                   borderRadius: BorderRadius.all(Radius.circular(6)),
                 ),
                 padding: EdgeInsets.symmetric(
                     horizontal: SizeConfig.scaleWidth(60),
                     vertical: SizeConfig.scaleHeight(30)),
-                    // horizontal: 60,
-                    // vertical: 30),
+                // horizontal: 60,
+                // vertical: 30),
                 child: LaunchAboutCard(),
               ),
             ),
@@ -73,4 +72,3 @@ class _AboutAppScreenState extends State<AboutAppScreen> {
     );
   }
 }
-

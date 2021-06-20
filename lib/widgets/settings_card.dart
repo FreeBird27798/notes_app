@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/utils/app_colors.dart';
 import 'package:notes_app/utils/size_config.dart';
-
 import 'notes_app_text.dart';
 
 class SettingsCard extends StatelessWidget {

@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/utils/app_colors.dart';
 import 'package:notes_app/utils/app_dummy_data.dart';
-import 'package:notes_app/utils/app_helpers.dart';
-import 'package:notes_app/utils/size_config.dart';
 import 'package:notes_app/widgets/new_edit_screen.dart';
-import 'package:notes_app/widgets/notes_app_elevated_button.dart';
-import 'package:notes_app/widgets/notes_app_text.dart';
 
 class NewNoteScreen extends StatefulWidget {
   const NewNoteScreen({Key? key}) : super(key: key);

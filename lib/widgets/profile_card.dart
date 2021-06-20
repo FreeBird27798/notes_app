@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/utils/app_colors.dart';
 import 'package:notes_app/utils/size_config.dart';
-
 import 'notes_app_text.dart';
 
 class ProfileCard extends StatelessWidget {
@@ -9,8 +8,8 @@ class ProfileCard extends StatelessWidget {
   final String num;
 
   ProfileCard({
-   required this.text,
-   required this.num,
+    required this.text,
+    required this.num,
   });
 
   @override
@@ -19,15 +18,15 @@ class ProfileCard extends StatelessWidget {
       elevation: 6,
       child: Container(
         padding: EdgeInsets.symmetric(
-            horizontal: SizeConfig.scaleWidth(13), vertical: SizeConfig.scaleHeight(11)),
-            // horizontal: 13,
-            // vertical: 11),
+            horizontal: SizeConfig.scaleWidth(13),
+            vertical: SizeConfig.scaleHeight(11)),
+        // horizontal: 13,
+        // vertical: 11),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(5),
           border: Border.all(
-              color: AppColors.APP_BLUE_COLOR,
-              width: SizeConfig.scaleWidth(1)),
-              // width: 1),
+              color: AppColors.APP_BLUE_COLOR, width: SizeConfig.scaleWidth(1)),
+          // width: 1),
         ),
         child: Column(
           children: [
@@ -39,7 +38,7 @@ class ProfileCard extends StatelessWidget {
               // fontSize: 12,
             ),
             SizedBox(
-              height:SizeConfig.scaleHeight(5),
+              height: SizeConfig.scaleHeight(5),
               // height: 5,
             ),
             NotesAppText(

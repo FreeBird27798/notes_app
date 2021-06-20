@@ -41,8 +41,4 @@ class DummyData {
   static const String NOTE_TEXT = 'Lorem Ipsum is simply dummy text '
       'of the printing and typesetting industry. '
       'LoremIpsum has been the industry’s standard dummy text ever since the 1500s,';
-//
-// static const String TITLE_01 = 'Welcome!';
-// static const String TITLE_02 = 'Add To Cart!';
-// static const String TITLE_03 = 'Enjoy Purchase!';
 }
