@@ -9,7 +9,7 @@ class CategoryNotesCard extends StatelessWidget {
   final String subTitle;
 
   CategoryNotesCard({
-    this.done = true,
+    this.done = false,
     required this.title,
     required this.subTitle,
   });
@@ -62,7 +62,7 @@ class CategoryNotesCard extends StatelessWidget {
               fontWeight: FontWeight.w500,
             ),
             trailing: Icon(
-              Icons.assignment_turned_in_outlined,
+              Icons.check_circle,
               color: done
                   ? AppColors.NOT_DONE_NOTE_COLOR
                   : AppColors.DONE_NOTE_COLOR,
